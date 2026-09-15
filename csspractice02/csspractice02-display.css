@@ -1,0 +1,57 @@
+body,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.title {
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px
+}
+
+
+.title-con-text {
+    display: block;
+    text-align: center;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px
+}
+
+.menu-con>ul>li {
+    width: 200px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.menu-con>ul {
+    display: flex;
+}
+
+.con-title>a {
+    font-size: 3rem;
+}
+
+.con-title>a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.menu-con>ul>li:hover {
+    color: red;
+    text-decoration: underline;
+    border: 3px solid red;
+}

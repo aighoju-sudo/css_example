@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body, ul, li {
+            list-style: none;
+            margin:0;
+            padding:0;
+        }
+        
+        
+        a {
+            text-decoration:none;
+            color:inherit;
+        }
+
+        .con1 > ul > li {
+            border:10px solid red;
+        }
+
+        .con1 > ul > ul {
+            border:10px solid blue;
+            display:flex;
+        }
+
+        .con1 > ul > ul > li {
+            border:10px solid black;
+            flex:1;
+            box-sizing:border-box;
+        }
+
+        .con {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1000px;
+            border:10px solid orange;
+        }
+        .con1 > ul {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="con">
+            <nav class="con1">
+                <ul>
+                    <li><a href="#">MENU</a></li>
+                    <ul>
+                        <li><a href="#">text1</a></li>
+                        <li><a href="#">text2</a></li>
+                        <li><a href="#">text3</a></li>
+                        <li><a href="#">text4</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>

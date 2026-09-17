@@ -58,7 +58,7 @@
             align-items: center;
             /* transform: translate(0, -10px); */
             transition: transform 2s ease;
-            transform-origin: 150px -170px;
+            transform-origin: 150px -170px;    /**백분위로 적었을 때 안됐음. 요소 맨 왼쪽 위가 0px 0px 기준점임*/
         }
 
         .con>ul>ul>li>a {
@@ -75,7 +75,7 @@
 
         .con>ul:hover>ul {
             /* transform:translate(340px, -10px)  rotate(-90deg) ; */
-            transform: rotate(-90deg);
+            transform: rotate(-3600deg);
         }
 
         .con>ul:hover>li {

@@ -1,0 +1,103 @@
+        a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        h2 {
+            border-top: 5px solid black;
+            border-bottom: 5px solid black;
+            text-align: center;
+        }
+
+        h2:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .hcon {
+            padding-bottom: 10px;
+        }
+
+        body,
+        ul,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* .con {
+            border: 10px solid black;
+        } */
+
+        .con>ul {
+            /* border: 10px solid red; */
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+        }
+
+        .con>ul>li {
+            display: flex;
+            border: 10px solid black;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            transform: translate(-10px, -10px);
+            transition: all 2s ease;
+        }
+
+        .con>ul>ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* transform: translate(0, -10px); */
+            transition: transform 2s ease;
+            transform-origin: 150px -170px;
+        }
+
+        .con>ul>ul>li>a {
+            width: 300px;
+            height: 80px;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .con>ul>ul>li {
+            padding-bottom: 10px;
+        }
+
+        .con>ul:hover>ul {
+            /* transform:translate(340px, -10px)  rotate(-90deg) ; */
+            transform: rotate(-90deg);
+        }
+
+        .con>ul:hover>li {
+            /* transform:translate(340px, -10px)  rotate(-90deg) ; */
+            color: white;
+            background-color: black;
+            border: 10px solid blue;
+        }
+
+        .con>ul:hover>ul>li {
+            color: white;
+        }
+
+        .con>ul:hover>ul>li>a {
+            border: 2px solid blue;
+            background-color: black;
+        }
+
+        .con>ul>ul>li>a {
+            transition: all 2s ease;
+        }
+
+        .con>ul>li>a {
+            font-size: 3rem;
+        }

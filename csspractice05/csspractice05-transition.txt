@@ -1,0 +1,8 @@
+transition은 보통 이런 속성에 적용됩니다:
+
+opacity
+height
+width
+transform
+background-color
+하지만 display은 값 자체가 완전히 바뀌는 속성이어서 전환이 안 됩니다.
